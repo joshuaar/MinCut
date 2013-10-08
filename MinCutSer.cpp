@@ -265,8 +265,7 @@ int main(int argc, char **argv)
 
 	std::srand(std::time(0));//set a random seed
 	Graph x = Graph();	
-	x.minCut();
-	//y.minCutSer();
+	x.minCutSer();
 };
 
 
